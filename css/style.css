@@ -80,6 +80,10 @@ a:hover {
   color: white;
 }
 
+.projects, .introduction a:visited {
+  color: white;
+}
+
 ul {
   list-style: none;
   color: white;

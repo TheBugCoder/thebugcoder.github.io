@@ -13,13 +13,14 @@ body {
   background: rgb(55, 100, 144);
 }
 
-.nav {
+nav {
   overflow: hidden;
   margin: auto;
   color: white;
+  white-space: nowrap;
 }
 
-.nav a {
+nav a {
   float: left;
   text-align: center;
   padding: 14px 16px;
@@ -34,7 +35,7 @@ body {
 
 @media screen and (max-width: 768px) {
   #profiles {
-    float: right;
+    float: left;
   }
 }
 
